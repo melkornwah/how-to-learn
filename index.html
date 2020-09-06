@@ -2,30 +2,373 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
 </head>
-<body>
-  <div class="page">
-    <header class="header">
-
-    </header>
-    <main class="content">
-      <section class="description">
-      </section>
-
-      <section class="digits">
-      </section>
-
-      <section class="feinman">
-      </section>
-
-      <section class="kaufman">
-      </section>
-    </main>
-    <footer class="footer">
-
-    </footer>
-  </div>
+<body class="page">
+  <header class="header background_theme_bright">
+    <div class="logo logo_place_header"></div>
+    <ul class="flex-column flex-box_centered">
+      <li class="list">
+        <h1 class="header__title font-weight_bold">Научиться учиться</h1>
+      </li>
+    </ul>
+    <h2 class="header__subtitle font-weight_normal">
+      Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
+      <a href="#" class="header__link font-weight_normal">Узнать &rarr;</a>
+    </h2>
+    <div class="header__main-illustration"></div>
+    <div class="header__square-pic"></div>
+  </header>
+  <main class="content">
+    <section class="description description_space-top flex-row flex-box_centered">
+      <ul class="two-columns flex-row flex-box_space-between list">
+        <li class="two-columns__brief">
+          <h2>Главные проблемы в обучении</h2>
+        </li>
+        <li class="two-columns__main-text">
+          <div>
+            <ul class="flex-column flex-column_space-between list">
+              <li class="two-columns__paragraph">
+                <p>Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
+                Мы готовимся к экзаменам и учим билеты.
+                Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам реального знания.
+                Зубрежка быстро выветривается и не приносит пользы.</p>
+              </li>
+              <li class="two-columns__paragraph two-columns__paragraph_central">
+                <p><span class=two-columns__span-accent>Вывод: </span>учиться тоже нужно уметь, но почему-то этому мало где учат.
+                Что с этим делать?</p>
+              </li>
+              <li class="two-columns__paragraph">
+                <p>Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим.
+                Эти же техники применяются на примере обучения в Практикуме.</p>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+      <section class="digits digits_space-vertical flex-column flex-box_centered">
+      <h2 class="section-title section-title_place_digits font-weight_bold">
+        Цифры и факты
+      </h2>
+      <h3 class="section-subtitle section-subtitle_place_digits font-weight_normal">
+        Про учёбу и мозг
+      </h3>
+      <table class="table">
+        <tr class="flex-row flex-box_space-between">
+          <th class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>86 миллиардов</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Число нейронов в мозге человека</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>2,1 миллиарда</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Число нуждающихся в повышении квалификации</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Всемирный Банк, 2017</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>1000 терабайт</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Объём памяти человека</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>500 триллионов</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Число ответственных за обучение нервных синапсов у взрослого человека</p>
+              </li>
+            </ul>
+          </th>
+        </tr>
+        <tr class="flex-row flex-box_space-between">
+          <td class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>420 миллионов</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Всемирный Банк, 2017</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>17-20 лет</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Пик обучаемости</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>1885 год</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Открытие кривой забывания</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell">
+            <ul class="list">
+              <li class="table__heading font-weight_bold">
+                <p>1889 год</p>
+              </li>
+              <li class="table__text table__text_space_top font-weight_normal">
+                <p>Открытие условного рефлекса</p>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </section>
+      <section class="feynman background_theme_bright">
+      <ul class="flex-column list">
+        <li>
+          <div>
+            <ul class="flex-row flex-box_centered list">
+              <li>
+                <h2 class="feynman__title font-weight_bold">
+                  Метод Фейнмана
+                </h2>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div>
+            <ul class="flex-row flex-box_centered list">
+              <li>
+                <h2 class="feynman__subtitle font-weight_normal">
+                  Выучить и не забыть.
+                </h2>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <a href="#" class="feynman__link font-weight_bold">Подробнее &rarr;</a>
+    </section>
+      <section class="kaufman kaufman_space-top flex-column background_theme_dark text_white">
+        <h2 class="section-title section-title_place_kaufman flex-box_centered font-weight_bold">
+          Принципы обучения
+        </h2>
+        <h3 class="section-subtitle section-subtitle_place_kaufman flex-box_centered font-weight_normal">
+          от Джоша Кауфмана
+        </h3>
+      <table class="table table_theme_dark">
+        <tr class="flex-row flex-box_space-between">
+          <th class="table__cell_theme_dark">
+            <ul class="list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                1
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Выберите привлекательный проект.</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell_theme_dark">
+            <ul class="list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                2
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Сосредоточьтесь на каком-то одном навыке.</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell_theme_dark">
+            <ul class="list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                3
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Определите целевой уровень мастерства.</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell_theme_dark">
+            <ul class="list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                4
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Разбейте навык на элементы.</p>
+              </li>
+            </ul>
+          </th>
+          <th class="table__cell_theme_dark">
+            <ul class="list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                5
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Приготовьте всё необходимое для занятий.</p>
+              </li>
+            </ul>
+          </th>
+        </tr>
+        <tr class="flex-row flex-box_space-between">
+          <td class="table__cell_theme_dark">
+            <ul class="flex-column list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                6
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Устраните препядствия для занятий.</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell_theme_dark">
+            <ul class="flex-column list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                7
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Выделите специальное время для занятий.</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell_theme_dark">
+            <ul class="flex-column list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                8
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Создайте быстрые петли обратной связи.</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell_theme_dark">
+            <ul class="flex-column list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                9
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Занимайтесь по расписанию, короткими интенсивными интервалами.</p>
+              </li>
+            </ul>
+          </td>
+          <td class="table__cell_theme_dark">
+            <ul class="flex-column list">
+              <li class="table__heading_theme_dark font-weight_bold">
+                10
+              </li>
+              <li class="table__text_theme_dark font-weight_normal">
+                <p>Уделяйте внимание количеству и скорости.</p>
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <div class="kaufman__triangle"></div>
+    </section>
+  </main>
+  <footer class="footer background_theme_dark text_white flex-column">
+    <div class="footer__columns flex-row flex-box_space-between">
+      <div class="footer__column_content_copyright flex-column flex-box_space-between">
+        <div class="logo"></div>
+        <div class="footer__author">
+          <p>&copy; 2020. Владимир Чистый</p>
+        </div>
+      </div>
+      <ul class="flex-column list">
+        <li>
+          <div>
+            <ul class="footer__column_content_info flex-column list">
+              <li class="footer__column-heading">
+                <p>О Практикуме</p>
+              </li>
+              <li class="footer__column-links">
+                <div>
+                  <ul class="flex-column flex-box_space-between list">
+                    <li>
+                      <a href="#" class="footer__column-links">Главная</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer__column-links">Концепция</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer__column-links">Наставники</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+      <ul class="footer__column_content_social flex-column list">
+        <li class="footer__column-heading">
+          <p>Соцсети</p>
+        </li>
+        <li>
+          <a href="#" class="footer__column-links">
+            <ul class="flex-row list">
+              <li>
+                <img src="images/facebook_color_white.svg" alt="Логотип Facebook" class="footer__social-icons">
+              </li>
+              <li>
+                Facebook
+              </li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer__column-links">
+            <ul class="flex-row list">
+              <li>
+                <img src="images/vk_color_white.svg" alt="Логотип Вконтакте" class="footer__social-icons">
+              </li>
+              <li>
+                Вконтакте
+              </li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="footer__column-links">
+            <ul class="flex-row list">
+              <li>
+                <img src="images/instagram_color_white.svg" alt="Логотип Instagram" class="footer__social-icons">
+              </li>
+              <li>
+                Instagram
+              </li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>
