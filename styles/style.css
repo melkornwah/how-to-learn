@@ -14,6 +14,10 @@
   color: white;
 }
 
+.text_space-around_none {
+  margin: 0;
+}
+
 .description_space-top {
   margin-top: 100px;
 }
@@ -153,6 +157,7 @@
   width: 175px;
   line-height: 1.2;
   font-size: 18px;
+  text-decoration: none;
   color: #2f80ed;
 }
 
