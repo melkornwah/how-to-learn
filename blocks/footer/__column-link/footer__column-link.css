@@ -1,0 +1,4 @@
+.footer__column-link, .footer__column-link:visited {
+  text-decoration: none;
+  color: white;
+}
