@@ -6,3 +6,9 @@
   right: 0;
   z-index: 1;
 }
+
+@media screen and (max-width: 1280px) {
+  .header__main-illustration {
+    transform: scale(.75) translate(16.65%, 16.65%);
+  }
+}

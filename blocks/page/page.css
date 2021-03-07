@@ -5,3 +5,10 @@
   font-family: "Helvetica Neue", "Arial", sans-serif;
   text-decoration: black;
 }
+
+@media screen and (max-width: 1280px) {
+  .page {
+    min-width: 800px;
+    max-width: 1280px;
+  }
+}
